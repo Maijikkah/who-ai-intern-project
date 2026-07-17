@@ -1,6 +1,15 @@
-print("Welcome to WHO AI Knowledge Assistant")
+def greet():
+    print("=== WHO AI Knowledge Assistant ===")
 
-question = input("Ask a question: ")
+def main():
+    greet()
+    question = input("Enter your question: ")
 
-print("You asked:", question)
-print("Thank you for using the AI Knowledge Assistant.")
+    if question.strip() == "":
+        print("Please enter a valid question.")
+    else:
+        print(f"You asked: {question}")
+        print("Thank you for testing this AI assistant.")
+
+if __name__ == "__main__":
+    main()
