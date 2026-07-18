@@ -1,0 +1,9 @@
+hello: Hello! How can I help you today?
+
+who: WHO stands for the World Health Organization.
+
+ai: Artificial Intelligence enables computers to learn, reason, and solve problems.
+
+python: Python is a popular programming language for AI and software development.
+
+github: GitHub is a platform for hosting and collaborating on software projects.
